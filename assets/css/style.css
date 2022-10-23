@@ -1,4 +1,4 @@
-html,
+html
 body {
     margin: 0;
     padding: 0;
@@ -6,15 +6,36 @@ body {
     text-align: center;
 }
 
-h1,
-h2 {
-    color: darkred;
+h1 {
+    font-size: 40px;
+    font-family: 'Brush Script MT';
+    color: #05535f
 }
 
-h3, 
-p,
+h2 {
+    font-size: 40px;
+    font-family: 'Brush Script MT';
+    color: #05535f;
+}
+
+h3{
+    font-size: 40px;
+    font-family: 'Brush Script MT';
+    color: #05535f;
+}
+
+p { 
+    text-align: center;
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+}
+
+.content-justify {
+    text-align: justify;
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+}
+
 li {
-    color: green;
+    color: rgb(128, 11, 0);
 }
 
 img {
@@ -28,8 +49,8 @@ main {
 }
 
 nav {
-    background-color: beige;
     padding: 10px;
+    width: 100%;
 }
 
 nav ul {
@@ -53,13 +74,14 @@ nav a:hover {
 }
 
 #banner {
-    width: 100%;
+    
+    width: 15%;
     height: auto;
     background-color: white;
 }
 
 #banner img {
-    width: 60%;
+    width: 100%;
     height: auto;
 }
 
@@ -75,12 +97,19 @@ nav a:hover {
 }
 
 table {
+    font-family: 'Noto Sans', 'Noto Sans JP', 'sans-serif';
+    font-weight: 'bold';
+    font-size: 25px;
     border: 3px solid black;
     width: 100%;
 }
   
-td,
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
 th {
     border: 1px solid black;
     padding: 5px;
+    width: 50%
 }
